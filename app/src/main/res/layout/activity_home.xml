@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kian2">
+
+
+    <com.kian.helper.SquareRelativeLayout
+        android:background="@drawable/gradient_bg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:visibility="visible">
+
+        <androidx.appcompat.widget.Toolbar
+            android:visibility="gone"
+            android:id="@+id/toolbar"
+            style="@style/CustomToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/transparent"
+            android:elevation="0dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/setting_btn"
+            android:layout_marginStart="12dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:padding="14dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/setting2" />
+
+            <TextView
+                android:layout_marginStart="-10dp"
+                android:id="@+id/back_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/kian1"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_wide"
+            android:layout_width="80dp"
+            android:layout_height="14dp"
+            />
+
+
+        <LinearLayout
+            android:layout_marginEnd="12dp"
+            android:id="@+id/add_btn"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="انتخاب شماره"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/kian1"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:visibility="gone" />
+            <ImageView
+                app:tint="@color/kian1"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:padding="15dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/add" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_container"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_cnt">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/no_cnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                app:cardBackgroundColor="@color/kian2"
+                app:cardCornerRadius="9dp"
+                app:cardElevation="6dp">
+
+                <EditText
+                    android:background="#00000000"
+                    android:id="@+id/number_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:inputType="phone"
+
+                    android:hint="@string/select_contact"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/top_button_cnt"
+                android:layout_below="@id/no_cnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                app:cardBackgroundColor="@color/kian1"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:orientation="horizontal">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tab1_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@color/kian12"
+                        app:cardCornerRadius="9dp"
+                        app:cardElevation="0dp">
+
+                        <TextView
+                            android:id="@+id/tab1_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:text="اطلاعات اصلی"
+                            android:textColor="@color/kian4"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/tab2_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@color/kian12"
+                        app:cardCornerRadius="9dp"
+                        app:cardElevation="0dp">
+
+                        <TextView
+                            android:id="@+id/tab2_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:text="اطلاعات ورودی ها"
+                            android:textColor="@color/kian4"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/kian1"
+                android:layout_below="@id/top_button_cnt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <include
+                        android:id="@+id/tab1_cnt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        layout="@layout/include_tab1"
+                        />
+
+                    <include
+                        android:visibility="gone"
+                        android:id="@+id/tab2_cnt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        layout="@layout/include_tab2"
+                        />
+
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:id="@+id/waiting_cnt"
+                        android:background="#B3000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:background="#00000000"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"/>
+
+                        <TextView
+
+                            android:id="@+id/wait_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:lines="1"
+                            android:text="@string/wait_for_response"
+                            android:textColor="@color/kian1"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </RelativeLayout>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/bottom_cnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/receive_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/red"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/receive_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/kian1"
+                        android:textStyle="bold"
+                        android:text="@string/receive_data"
+                        android:textSize="16sp" />
+                    <ImageView
+                        android:id="@+id/receive_iv"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:padding="13dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/download"
+                        app:tint="@color/kian1" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/send_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/kian7"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/send_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:text="@string/send_data"
+                        android:textColor="@color/kian1"
+                        android:textSize="16sp" />
+                    <ImageView
+                        android:id="@+id/send_iv"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:padding="13dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/upload"
+                        app:tint="@color/kian1" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:visibility="gone"
+                android:id="@+id/cancel_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/red"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/kian1"
+                    android:textStyle="bold"
+                    android:text="لغو"
+                    android:textSize="16sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:visibility="gone"
+                android:id="@+id/wait_btn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/kian3"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp">
+
+                <TextView
+                    android:id="@+id/wait_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="@string/wait_for_response1"
+                    android:textColor="@color/kian1"
+                    android:textSize="16sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+    <include
+        android:visibility="gone"
+        android:id="@+id/password_cnt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/include_password"
+        />
+
+</RelativeLayout>

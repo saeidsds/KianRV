@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">KianRV</string>
+
+    <string name="send_data">ارسال</string>
+    <string name="receive_data">دریافت</string>
+    <string name="select_contact">انتخاب شماره تلفن</string>
+    <string name="accept">تایید</string>
+    <string name="error_contact_permission">دسترسی به مخاطبین داده نشده است.</string>
+    <string name="error_read_sms_permission">دسترسی به خواندن پیامک داده نشده است</string>
+    <string name="error_send_sms_permission">دسترسی ارسال پیامک داده نشده است</string>
+    <string name="error_sms_permission">دسترسی پیامک داده نشده است</string>
+
+    <string name="error_no_number">شماره ای انتخاب یا وارد نشده است</string>
+    <string name="error_number">شماره ای انتخاب یا وارد نشده است</string>
+
+
+    <string name="request_sent">درخواست ارسال شد</string>
+    <string name="wait_for_response1">در انتظار تایید اولیه</string>
+    <string name="wait_for_response2">در انتظار تایید نهایی</string>
+    <string name="wait_for_response">در انتظار تایید</string>
+    <string name="write_complete">اطلاعات با موفقیت بروزرسانی شد</string>
+    <string name="read_complete">اطلاعات بارگذاری شد</string>
+
+    <string name="no_hardware">سخت افزار مربوطه در گوشی شما فعال نیست</string>
+    <string name="fingerprint_activated">ورود با اثرانگشت فعال گردید</string>
+    <string name="fingerprint_deactivated">ورود با اثرانگشت غیرفعال گردید</string>
+    <string name="error_fingerprint_device">لطفا اثرانگشت را در دستگاه خود فعال کنید</string>
+
+    <string name="password_desc1">لطفا کلمه عبور مد نظر خود را وارد کنید</string>
+    <string name="password_desc2">لطفا دوباره کلمه عبور مد نظر خود را وارد کنید</string>
+    <string name="password_error">کلمه عبور وارد شده با کلمه عبور انتخابی تطابق ندارد</string>
+
+    <string name="password_set_complete">کلمه عبور برای شما تنظیم شد</string>
+    <string name="set_fingerprint">آیا مایل هستید حسگر اثر انگشت فعال شود؟</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="error_login_biometric">عدم مطابقت</string>
+    <string name="error_faild_biometric">عدم شناسایی</string>
+    <string name="enter">ورود</string>
+    <string name="exit">خروج</string>
+</resources>

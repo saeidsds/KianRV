@@ -1,0 +1,1969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="تنظیمات سرعت"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt232"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/plus232"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input232"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <TextView
+                            android:id="@+id/minus232"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt232"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="سرعت درب در حالت اصلی"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt233"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/plus233"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input233"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus233"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt233"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="سرعت درب در حالت چرخشی"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt235"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/plus235"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input235"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus235"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt235"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="سرعت درب در حالت خطای بیم"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt234"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/plus234"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input234"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus234"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt234"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="سرعت درب در حالت معلولین"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="تنظیمات زمان"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt230"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/plus230"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input230"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <TextView
+                            android:id="@+id/minus230"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt230"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="زمان توقف خطای مانع"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt231"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/plus231"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input231"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus231"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt231"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="زمان آهسته خطای بیم"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="تنظیمات زمان و سرعت"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt236"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/plus236"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input236"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <TextView
+                            android:id="@+id/minus236"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt236"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="زمان رفتن به سرعت آهسته"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt237"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/plus237"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input237"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus237"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt237"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="سرعت درب برای ایستادن"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="وضعیت درب"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt240"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/plus240"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input240"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <TextView
+                            android:id="@+id/minus240"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt240"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="سرعت فعلی درب"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt238"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/plus238"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input238"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus238"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt238"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="تعداد باله در حرکت اصلی"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt239"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/plus239"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input239"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus239"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt239"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="تعداد باله در حرکت ویلچر"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+            
+
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="اطلاعات رزرو"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt246"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/plus246"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input246"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus246"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt246"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="حالت رزرو دوم"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/action_cnt247"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="19dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:cardBackgroundColor="#e1e1e1"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:id="@+id/plus247"
+
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="+"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+                        <EditText
+                            android:background="#00000000"
+                            android:minWidth="60dp"
+                            android:id="@+id/input247"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginEnd="4dp"
+                            android:ellipsize="end"
+                            android:gravity="center"
+                            android:text="0"
+                            android:inputType="number"
+                            android:textColor="@color/kian4"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:alpha="0.5"
+                            android:background="@color/kian3" />
+
+
+                        <TextView
+                            android:id="@+id/minus247"
+                            android:layout_width="42dp"
+                            android:layout_height="37dp"
+                            android:alpha="0.9"
+                            android:gravity="center"
+                            android:text="-"
+                            android:textColor="@color/kian3"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="19dp"
+                    android:layout_toEndOf="@id/action_cnt247"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:text="حالت رزرو سوم"
+                        android:textColor="@color/kian4"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="اطلاعات پسورد"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2441"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2441"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="وضعیت پسورد اول"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2442"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2442"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="وضعیت پسورد دوم"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2443"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2443"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="وضعیت پسورد سوم"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="اطلاعات اینورتر"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2451"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2451"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ران شدن اینورتر"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2452"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2452"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="رسیدن به فرکانس اینورتر"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+
+
+
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</ScrollView>

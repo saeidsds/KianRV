@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+
+
+    <color name="transparent">#00000000</color>
+    <color name="red">#C8052B</color>
+    <color name="green">#FF018786</color>
+    <color name="transparent_red">#1AC8052B</color>
+    <color name="hint_color">#5B444853</color>
+    <color name="status_bar">#27187E</color>
+
+
+
+    <color name="kian1">#FEFEFE</color>
+    <color name="kian2">#F1F1F1</color>
+    <color name="kian3">#444853</color>
+    <color name="kian4">#282D39</color>
+    <color name="kian5">#181B20</color>
+    <color name="kian6">#FDC921</color>
+    <color name="kian7">#172164</color>
+    <color name="kian8">#106bff</color>
+    <color name="kian9">#00f992</color>
+    <color name="kian10">#ff9200</color>
+    <color name="kian11">#bababf</color>
+    <color name="kian12">#e1e1e1</color>
+    <color name="kian13">#D7E3E1</color>
+    <color name="kian14">#ed2929</color>
+    <color name="kian15">#e7f4fd</color>
+    <color name="kian16">#e4fdf3</color>
+    <color name="kian91">#f0f0f0</color>
+    <color name="kian92">#1A00f992</color>
+    <color name="kian93">#f5e1e1</color>
+    <color name="kian94">#20BF55</color>
+</resources>

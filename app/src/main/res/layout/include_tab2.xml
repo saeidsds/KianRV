@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="فعال بودن ورودی ها"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2421"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2421"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="چشم داخل"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2422"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2422"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="چشم خارج"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2423"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2423"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="بیم داخل"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2424"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2424"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="بیم خارج"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2425"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2425"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ضربه داخل"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2426"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2426"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ضربه خارج"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2427"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2427"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="چشم باله ها"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2428"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2428"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ضربه باله ها"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2429"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2429"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="اضطراری"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt24210"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb24210"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ویلچر"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="وضعیت فعلی ورودی ها"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2431"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2431"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="چشم داخل"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2432"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2432"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="چشم خارج"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2433"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2433"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="بیم داخل"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2434"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2434"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="بیم خارج"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2435"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2435"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ضربه داخل"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2436"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2436"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ضربه خارج"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2437"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2437"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="چشم باله ها"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2438"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2438"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ضربه باله ها"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt2439"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb2439"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="اضطراری"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/checkbox_cnt24310"
+                android:background="@drawable/cb_not_checked"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/cb24310"
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ویلچر"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:background="#00000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </RelativeLayout>
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</ScrollView>
