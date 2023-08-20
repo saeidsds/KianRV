@@ -62,6 +62,7 @@ class HomeActivity : BaseActivity() {
         d_text_array.forEach {
             init_text_input(it)
         }
+        init_checkboxe("241",3,true)
         init_checkboxe("244",3)
         init_checkboxe("245",2)
         init_checkboxe("243",10)
@@ -282,6 +283,7 @@ class HomeActivity : BaseActivity() {
         }
 
 
+        result["241"] = get_checkbox_data("241")
         result["244"] = get_checkbox_data("244")
         result["245"] = get_checkbox_data("245")
         result["243"] = get_checkbox_data("243")
@@ -303,6 +305,7 @@ class HomeActivity : BaseActivity() {
         }
 
 
+        set_checkbox_data("241")
         set_checkbox_data("244")
         set_checkbox_data("245")
         set_checkbox_data("243")
@@ -510,7 +513,7 @@ class HomeActivity : BaseActivity() {
         input_array[id]=input
     }
 
-    fun init_checkboxe(id: String, count: Int){
+    fun init_checkboxe(id: String, count: Int, single_select: Boolean = false){
 
         var temp_array : LinkedList<AppCompatCheckBox> = LinkedList<AppCompatCheckBox>()
         for(i in 1 .. count){
@@ -518,6 +521,14 @@ class HomeActivity : BaseActivity() {
             var cb : AppCompatCheckBox = findViewById(resources.getIdentifier("cb"+id+i, "id", packageName))
             cb.setOnCheckedChangeListener { buttonView, isChecked ->
                 if(isChecked){
+                    if(single_select){
+                        for(j in 1 .. count){
+                            if(j!=i){
+                                var temp_cb : AppCompatCheckBox = findViewById(resources.getIdentifier("cb"+id+j, "id", packageName))
+                                temp_cb.isChecked = false
+                            }
+                        }
+                    }
                     container.setBackgroundResource(R.drawable.cb_checked)
                 }else{
                     container.setBackgroundResource(R.drawable.cb_not_checked)
