@@ -111,6 +111,7 @@ class SettingActivity : BaseActivity() {
         super.onResume()
         if(sp!!.getBoolean("fingerprint_dialog",false))
         {
+            spe!!.putBoolean("fingerprint_dialog",false).apply()
             if(MultiplatformHelper.check_fingerpring(ctx!!) && !sp!!.getBoolean("fingerprint",false))
             if(MultiplatformHelper.check_fingerpring(ctx!!))
                 show_fingerprint_dialog()

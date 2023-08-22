@@ -41,7 +41,7 @@ class HomeActivity : BaseActivity() {
     var plus_array: MutableMap<String, TextView> = HashMap()
     var minus_array: MutableMap<String, TextView> = HashMap()
     var input_array: MutableMap<String, EditText> = HashMap()
-    var d_text_array  = arrayOf("230","231","232","233","234","235","236","237","238","239","240","246","247");
+    var d_text_array  = arrayOf("230","231","232","233","234","235","236","237","238","239","240","246");
     var checkbox_array: MutableMap<String, LinkedList<AppCompatCheckBox>> = HashMap()
     var data_array: MutableMap<String,String> = HashMap()
     lateinit var number_et : EditText
@@ -65,6 +65,7 @@ class HomeActivity : BaseActivity() {
         init_checkboxe("241",3,true)
         init_checkboxe("244",3)
         init_checkboxe("245",2)
+        init_checkboxe("247",2,true)
         init_checkboxe("243",10)
         init_checkboxe("242",10)
         number_et = findViewById(R.id.number_et)
@@ -286,6 +287,7 @@ class HomeActivity : BaseActivity() {
         result["241"] = get_checkbox_data("241")
         result["244"] = get_checkbox_data("244")
         result["245"] = get_checkbox_data("245")
+        result["247"] = get_checkbox_data("247")
         result["243"] = get_checkbox_data("243")
         result["242"] = get_checkbox_data("242")
 
@@ -308,6 +310,7 @@ class HomeActivity : BaseActivity() {
         set_checkbox_data("241")
         set_checkbox_data("244")
         set_checkbox_data("245")
+        set_checkbox_data("247")
         set_checkbox_data("243")
         set_checkbox_data("242")
     }

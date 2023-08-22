@@ -1655,14 +1655,14 @@
 
 
                         <TextView
-
+                            android:paddingStart="5dp"
                             android:layout_width="42dp"
                             android:layout_height="37dp"
                             android:alpha="0.9"
                             android:gravity="center"
-                            android:text="ریال"
+                            android:text="تومان"
                             android:textColor="@color/kian3"
-                            android:textSize="16sp"
+                            android:textSize="15sp"
                             android:textStyle="bold" />
 
                         <TextView
@@ -1753,125 +1753,127 @@
 
             </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_marginTop="14dp"
+
+
+
+
+
+            <ImageView
+                android:alpha="1.5"
+                android:layout_marginTop="19dp"
+                android:background="@color/kian12"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/action_cnt247"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginStart="19dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    app:cardBackgroundColor="#e1e1e1"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="0dp">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
+                android:layout_height="1dp"/>
 
 
 
-                        <TextView
-                            android:id="@+id/plus247"
-
-                            android:layout_width="42dp"
-                            android:layout_height="37dp"
-                            android:alpha="0.9"
-                            android:gravity="center"
-                            android:text="+"
-                            android:textColor="@color/kian3"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                        <ImageView
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginBottom="8dp"
-                            android:alpha="0.5"
-                            android:background="@color/kian3" />
-
-                        <EditText
-                            android:background="#00000000"
-                            android:minWidth="60dp"
-                            android:id="@+id/input247"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginEnd="4dp"
-                            android:ellipsize="end"
-                            android:gravity="center"
-                            android:text="0"
-                            android:inputType="number"
-                            android:textColor="@color/kian4"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:visibility="visible" />
-
-                        <ImageView
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:layout_marginTop="8dp"
-                            android:layout_marginBottom="8dp"
-                            android:alpha="0.5"
-                            android:background="@color/kian3" />
 
 
-                        <TextView
-                            android:id="@+id/minus247"
-                            android:layout_width="42dp"
-                            android:layout_height="37dp"
-                            android:alpha="0.9"
-                            android:gravity="center"
-                            android:text="-"
-                            android:textColor="@color/kian3"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
+            <TextView
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginBottom="9dp"
 
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="نوع سیم کارت"
+                android:textColor="@color/kian4"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
 
-                <LinearLayout
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2471"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
                     android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2471"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginStart="6dp"
-                    android:layout_marginEnd="19dp"
-                    android:layout_toEndOf="@id/action_cnt247"
-                    android:gravity="start"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:ellipsize="end"
-                        android:gravity="right"
-                        android:text="حالت رزرو"
-                        android:textColor="@color/kian4"
-                        android:textSize="14sp"
-                        android:textStyle="bold" />
-
-
-
-
-
-                </LinearLayout>
-
-
-
-
-
-
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="ایرانسل"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
             </RelativeLayout>
+
+            <RelativeLayout
+                android:background="@drawable/cb_not_checked"
+                android:id="@+id/checkbox_cnt2472"
+                android:layout_marginTop="9dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginEnd="19dp"
+                >
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:buttonTint="@color/kian8"
+                    android:layout_alignParentEnd="true"
+                    android:textStyle="bold"
+                    android:id="@+id/cb2472"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="-4dp"
+                    android:gravity="start|center_vertical"
+                    android:textSize="14sp"
+                    android:textColor="@color/kian4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:text="همراه اول"
+                    android:textColor="@color/kian4"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             <ImageView
