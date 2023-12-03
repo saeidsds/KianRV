@@ -144,7 +144,7 @@
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:gravity="right"
-                    android:text="بیم داخل"
+                    android:text="ضربه داخل"
                     android:textColor="@color/kian4"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -183,7 +183,7 @@
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:gravity="right"
-                    android:text="بیم خارج"
+                    android:text="ضربه خارج"
                     android:textColor="@color/kian4"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -222,7 +222,7 @@
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:gravity="right"
-                    android:text="ضربه داخل"
+                    android:text="بیم داخل"
                     android:textColor="@color/kian4"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -261,7 +261,7 @@
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:gravity="right"
-                    android:text="ضربه خارج"
+                    android:text="بیم خارج"
                     android:textColor="@color/kian4"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -840,7 +840,7 @@
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:gravity="right"
-                    android:text="اضطراری"
+                    android:text="ویلچر"
                     android:textColor="@color/kian4"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -884,7 +884,7 @@
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
                     android:gravity="right"
-                    android:text="ویلچر"
+                    android:text="اضطراری"
                     android:textColor="@color/kian4"
                     android:textSize="14sp"
                     android:textStyle="bold" />
