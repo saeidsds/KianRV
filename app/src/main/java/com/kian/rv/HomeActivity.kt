@@ -386,7 +386,7 @@ class HomeActivity : BaseActivity() {
                             phoneCursor.getString(phoneCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NORMALIZED_NUMBER))
                         //Log.v("myapp", "phone # - $phoneNumber")
                         //Log.v("myapp", "normalized phone # - $normalizedPhoneNumber")
-                        number_et.setText(phoneNumber)
+                        number_et.setText(phoneNumber.replace(" ",""))
                     }
                 }
 
